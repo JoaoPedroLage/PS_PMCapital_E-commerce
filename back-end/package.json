@@ -1,0 +1,27 @@
+{
+  "name": "ps_pmcapital_e-commerce",
+  "version": "1.0.0",
+  "description": "PM capital selection process",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoPedroLage/PS_PMCapital_E-commerce.git"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "typescript",
+    "CRUD",
+    "API Rest"
+  ],
+  "author": "Joao Pedro de Oliveira Lage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaoPedroLage/PS_PMCapital_E-commerce/issues"
+  },
+  "homepage": "https://github.com/JoaoPedroLage/PS_PMCapital_E-commerce#readme"
+}
