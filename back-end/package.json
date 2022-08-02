@@ -2,10 +2,16 @@
   "name": "ps_pmcapital_e-commerce",
   "version": "1.0.0",
   "description": "PM capital selection process",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "engineStrict": true,
   "main": "index.js",
   "scripts": {
+    "build": "./scripts/tsc_eval.sh",
     "start": "node .",
-    "dev": "nodemon ."
+    "dev": "nodemon .",
+    "db:reset": "./scripts/reset-db-dev.sh"
   },
   "repository": {
     "type": "git",
@@ -23,5 +29,14 @@
   "bugs": {
     "url": "https://github.com/JoaoPedroLage/PS_PMCapital_E-commerce/issues"
   },
-  "homepage": "https://github.com/JoaoPedroLage/PS_PMCapital_E-commerce#readme"
+  "homepage": "https://github.com/JoaoPedroLage/PS_PMCapital_E-commerce#readme",
+  "dependencies": {
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.3",
+    "sequelize-cli-typescript": "^3.2.0-c",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.6.3"
+  }
 }
