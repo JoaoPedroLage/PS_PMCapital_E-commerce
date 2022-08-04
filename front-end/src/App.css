@@ -20,8 +20,7 @@
 
 .login-page-container {
   align-items: center;
-  /* background-image: url('./assets/images/pm-capital.jpg'); */
-  background-position-y: -170px;
+  background-image: url('./assets/images/pm-capital-wallpaper.png');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -38,12 +37,12 @@
   display: flex;
   flex-direction: column;
   height: 250px;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 300px;
 }
 
 .login-form {
-  align-items: center;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -59,8 +58,7 @@
 
 .register-page-container {
   align-items: center;
-  background-image: url('./images/drink-background.jpg');
-  background-position-y: -170px;
+  background-image: url('./assets/images/pm-capital-wallpaper.png');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -82,7 +80,7 @@
 }
 
 .register-form {
-  align-items: center;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   justify-content: center;
