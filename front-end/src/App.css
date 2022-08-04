@@ -20,7 +20,7 @@
 
 .login-page-container {
   align-items: center;
-  background-image: url('./images/pm-capital.jpg');
+  /* background-image: url('./assets/images/pm-capital.jpg'); */
   background-position-y: -170px;
   background-repeat: no-repeat;
   background-size: cover;
