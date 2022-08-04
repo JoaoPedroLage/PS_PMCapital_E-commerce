@@ -5,62 +5,56 @@ module.exports = {
     [
       {
         id: 1,
-        name: 'Skol Lata 250ml',
-        price: 2.20,
+        name: 'ingresso rock in rio 2022',
+        price: 312.50,
       },
       {
         id: 2,
-        name: 'Heineken 600ml',
-        price: 7.50,
+        name: 'ingresso show L7',
+        price: 50,
       },
       {
         id: 3,
-        name: 'Antarctica Pilsen 300ml',
-        price: 2.49,
+        name: 'ingresso Baile da Arena',
+        price: 110,
       },
       {
         id: 4,
-        name: 'Brahma 600ml',
-        price: 7.50,
+        name: 'ingresso os melhores do Funk',
+        price: 75,
       },
       {
         id: 5,
-        name: 'Skol 269ml',
-        price: 2.19,
+        name: 'ingresso Planeta Brasil',
+        price: 200,
       },
       {
         id: 6,
-        name: 'Skol Beats Senses 313ml',
-        price: 4.49,
+        name: 'ingresso Rave Universo Paralello',
+        price: 449,
       },
       {
         id: 7,
-        name: 'Becks 330ml',
-        price: 4.99,
+        name: 'ingresso show Lana Del Rey',
+        price: 499,
       
       },
       {
         id: 8,
-        name: 'Brahma Duplo Malte 350ml',
-        price: 2.79,
+        name: 'ingresso So Track Boa',
+        price: 279,
       },
       {
         id: 9,
-        name: 'Becks 600ml',
-        price: 8.89,
+        name: 'ingresso area vip show Lady Gaga',
+        price: 889,
       },
       {
         id: 10,
-        name: 'Skol Beats Senses 269ml',
-        price: 3.57,
-      },
-      {
-        id: 11,
-        name: 'Stella Artois 275ml',
-        price: 3.49,
+        name: 'ingresso area vip Festival Sertanejo',
+        price: 350,
       },
     ],
-
     {},
   ),
 
