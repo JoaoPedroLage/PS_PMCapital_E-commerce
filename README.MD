@@ -94,7 +94,6 @@ O que foi realizado dentre o proposto:
     * Na pasta do back-end execute no seu terminal `npm start` (o back-end começará a rodar na porta 3001, o script irá popular um banco de dados com base nas variáveis de ambiente).
     * Caso o `npm start` não rode corretamente, siga com seguintes comandos:
   * cd scripts
-  * cd scripts
   * chmod +x tsc_eval.sh
   * chmod +x reset-db-dev.sh
   * `npx -y tsc`
