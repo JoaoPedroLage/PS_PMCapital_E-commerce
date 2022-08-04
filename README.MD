@@ -25,8 +25,8 @@ por João Lage
 # :camera: Imagens do projeto
 
 <spam>
-  <img src="/images/.png" alt="" width="1000"/>
-  <img src="/images/.png" alt="" width="1000"/>
+  <img src="/images/GET-tickets.png" alt="GET de ingressos" width="1000"/>
+  <img src="/images/POST-login.png" alt="POST para validação do token" width="1000"/>
 </spam>
 
 # :man_dancing: Descrição do Projeto
