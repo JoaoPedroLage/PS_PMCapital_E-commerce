@@ -110,38 +110,43 @@ O que foi realizado:
 ##  API Documentation
    . Endpoints e atributos das tabelas do banco de dados
    
-   #### Create the item
+#### Returns all tickets
 
-  * Para cadastrar um novo ingresso realizar Post no endpoint: "http://localhost:3001/", insira os dados de acordo com esse exemplo:
-   {
-        "name": "",
-   },
-   
 ```http
-  POST /login/
+  GET /tickets
 ```
-   
-      *Para cadastrar resultados de uma n realizar Post no endpoint: "http://localhost:3001/competitions_results",
-      insira os dados de acordo com esse exemplo:
-      {
-        "name": "",
-        "name": "Joao das Neves",
-        "value": 10,
-      },
-    
-    * Para ver o  realizar Get no endpoint: "http://localhost:3001/", o retorno será algo como:
-    [
-        {
-            "_name": " ",
-            "1º": "Joao das Neves",
-            "2º": "Joao das Neves"
-        },
-        {
-            "_name": " ",
-            "1º": "Claudio",
-            "2º": "Claudio"
-        }
-    ]
+#### Delete one item
+
+```http
+  DELETE /ticket/${id}
+```
+
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+| `id`      | `string` | **Mandatory**. ID item |
+
+
+#### Update one item
+
+```http
+  UPDATE /ticket/${id}
+```
+
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+| `id`      | `string` | **Mandatory**. ID item |
+
+
+#### Signup
+
+```http
+  POST /login
+```
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+| `email`      | `string` | **your email** |
+| `password`      | `string` | **your password** |
+
 
 # :recycle: Feedback sobre o desafio
 
