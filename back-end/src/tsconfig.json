@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "./build",  
+    "outDir": "./build",
     "rootDir": ".",
     "target": "es2019",
     "module": "commonjs",
@@ -14,5 +14,5 @@
     "skipLibCheck": true
   },
   "baseUrl": ".",
-  "exclude": ["node_modules", "src/tests/"]
+  "exclude": ["node_modules", "./src/api/tests/"]
 }
