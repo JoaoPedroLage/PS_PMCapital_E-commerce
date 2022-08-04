@@ -150,6 +150,6 @@ O que foi realizado:
 
 # :recycle: Feedback sobre o desafio
 
-- A regra de negócio para ** foi a parte mais dificil para mim, acredito que com com a ajuda de um Senior Lead eu consegueria realizar essa tarefa com mais destreteza e com muito mais eficiência, continuarei a tentar a solução.
+- A configuração do servidor na AWS foi o maior desafio pra mim, visto a falta de prática com as ferramentas do AWS, acredito que com com a ajuda de um Senior Lead eu consegueria realizar essa tarefa com mais destreteza e com muito mais eficiência, continuarei a tentar a solução.
 - Outro ponto que gostaria de expor, é que eu me identifiquei de verdade com a empresa e a proposta de trabalho, como mencionei na entrevista, o que mais prezo em um emprego é um ambiente de trabalho seguro e confortável para eu poder ser o mais produtivo possível, eu sinceramente, senti que a PM Capital passa esse sentimento, desde já agradeço a oportunidade.
 - No mais, foi um ótimo desafio. Coloquei em prática muitos dos meus conhecimentos do NodeJs, TypeScript e POO.
