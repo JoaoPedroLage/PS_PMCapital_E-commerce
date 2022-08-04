@@ -42,15 +42,21 @@ Desafio proposto pela PM Capital para:
 
 
 
-O que foi realizado dentre o proposto:
-- [x] 
-- [x] 
-- [x] 
-- [x] 
-- [x] 
-- [x] 
-- [x] 
-- [ ]
+O que foi realizado:
+- [x] Setup do projeto com arquitetura de software
+- [x] Configuração do banco de dados
+- [x] Dockerizar aplicação
+- [x] Tipar todos arquivos corretamente
+- [x] Criar classes abstratas para o modelo MSC (models, services e controllers )
+- [x] Adicionar linter ao projeto
+- [x] Fazer validações com Zod
+- [x] CRUD de clientes
+- [x] CRUD de carrinhos
+- [x] CRUD de ingressos para os eventos
+- [x] Servidor cloud EC2 na AWS
+- [ ] criação de ingressos só pode ser feita por um usuário administrador
+
+
 
 # :construction: Melhorias possíveis:
 
@@ -62,8 +68,7 @@ O que foi realizado dentre o proposto:
 # :books: Stacks utilizadas
 
 ### Front-end
-- [ReactJs](https://pt-br.reactjs.org/) 
-- [Axios](https://axios-http.com/ptbr/docs/intro)
+- [ReactJs](https://pt-br.reactjs.org/)
 
 ### Back-end
 - [TypeScript](https://www.typescriptlang.org/)
@@ -107,33 +112,16 @@ O que foi realizado dentre o proposto:
    
    #### Create the item
 
-  * Para cadastrar uma nova Competição realizar Post no endpoint: "http://localhost:3001/", insira os dados de acordo com esse exemplo:
+  * Para cadastrar um novo ingresso realizar Post no endpoint: "http://localhost:3001/", insira os dados de acordo com esse exemplo:
    {
         "name": "",
    },
    
 ```http
-  POST /competitions/
+  POST /login/
 ```
-   #### Update one item
-      
-   * Para  uma  realizar Patch no endpoint: "http://localhost:3001/" e inserir o id da competição, depois /finish.
    
-   ```http
-     PATCH //1/finish
-   ```
-   
-    * o retorno será algo como:
-      {
-          "message": "Competition successfully finished",
-          "competition": {
-              "id": 1,
-              "_name": " ",
-              "in_progress": false
-          }
-       }
-   
-      *Para cadastrar resultados de uma nova Competição realizar Post no endpoint: "http://localhost:3001/competitions_results",
+      *Para cadastrar resultados de uma n realizar Post no endpoint: "http://localhost:3001/competitions_results",
       insira os dados de acordo com esse exemplo:
       {
         "name": "",
