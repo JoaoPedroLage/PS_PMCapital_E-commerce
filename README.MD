@@ -61,9 +61,9 @@ O que foi realizado:
 # :construction: Melhorias possíveis:
 
 - Testes para o back-end.
-- Melhorar regra de negócio.
-- Implementar.
-- Subir a aplicação para o HEROKU.
+- Melhorar a tipagem dos objetos que os métodos das classes recebem.
+- Implementar mais validações e mensagens de erro para as requisições do usuário.
+- Deixar a aplicação inteiramente on-line através dos servicos AWS.
 
 # :books: Stacks utilizadas
 
