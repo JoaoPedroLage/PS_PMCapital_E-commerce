@@ -6,7 +6,7 @@ module.exports = {
       {
         id: 1,
         name: 'ingresso rock in rio 2022',
-        price: 312.50,
+        price: 312,
       },
       {
         id: 2,
