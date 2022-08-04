@@ -50,12 +50,11 @@ O que foi realizado dentre o proposto:
 - [x] 
 - [x] 
 - [x] 
-- [ ] 
-- [x] Testes.
+- [ ]
 
 # :construction: Melhorias possíveis:
 
-- Aumentar a cobertura de testes para o back-end.
+- Testes para o back-end.
 - Melhorar regra de negócio.
 - Implementar.
 - Subir a aplicação para o HEROKU.
