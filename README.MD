@@ -80,7 +80,7 @@ O que foi realizado:
 # Etapa mais desafiadora
 
 - Utilizar o TypeScript com excelencia e aplicar POO para criar uma aplicação de fácil manutenibilidade e com facilidade para implentar novas features.
-- Realizar regras de negocio parao.
+- Garantir que todas as funções estão se comunicando com coerência e gerando os resultados esperados.
 - Aprender sobre AWS e o seu ecossistema.
 
 # 🛠️ Abrir e rodar o projeto
