@@ -101,6 +101,7 @@ O que foi realizado:
   * `cd scripts`
   * `chmod +x tsc_eval.sh`
   * `chmod +x reset-db-dev.sh`
+  * tente o: `npm start`
   * `npm run build`
   * `npm run db:reset`
   * `npm run dev`
