@@ -54,7 +54,7 @@ O que foi realizado:
 - [x] CRUD de carrinhos
 - [x] CRUD de ingressos para os eventos
 - [x] Servidor cloud EC2 na AWS
-- [ ] Criação de ingressos só pode ser feita por um usuário administrador
+- [X] Criação de ingressos só pode ser feita por um usuário administrador
 
 
 
