@@ -1,22 +1,22 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Request, Response } from 'express';
-import TokenGenerator from '../middlewares/tokenGenerator';
+import TokenData from '../middlewares/tokenGenerator';
 import LoginService from '../services/Login.service';
 
 class LoginController {
   private $route: string;
 
-  loginService: any;
+  private loginService: any;
   
-  tokenGenerator: any;
+  private tokenData: any;
 
   constructor(route = '/login') {
     this.loginService = new LoginService();
-    this.tokenGenerator = new TokenGenerator();
+    this.tokenData = new TokenData();
 
     this.login = this.login.bind(this);
     this.validation = this.validation.bind(this);
-    this.$route = route; 
+    this.$route = route;
   }
   
   get route() {
@@ -43,7 +43,7 @@ class LoginController {
       return res.status(400).json({ message: 'Unauthorized' });
     }
 
-    const decodedUser = await this.tokenGenerator.decodeToken(authorization);
+    const decodedUser = await this.tokenData.verifyToken(authorization);
 
     return res.status(200).json(decodedUser);
   }

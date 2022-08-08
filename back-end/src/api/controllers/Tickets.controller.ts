@@ -21,12 +21,14 @@ class TicketController extends Controller<Ticket> {
   
   create = async (
     req: RequestWithBody<Ticket>,
-    res: Response<Ticket | ResponseError>,
+    res: Response<Ticket | ResponseError | any>,
   ): Promise<typeof res> => {
     const { body } = req;
+    const { authorization } = req.headers;
   
     try {
-      const ticket = await this.service.create(body);
+      const ticket = await this.service.create(body, authorization);
+      const { code, message } = ticket;
   
       if (!ticket) {
         return res.status(500).json({ error: this.errors.internal });
@@ -34,6 +36,10 @@ class TicketController extends Controller<Ticket> {
   
       if ('error' in ticket) {
         return res.status(400).json(ticket);
+      }
+  
+      if (message) {
+        return res.status(code).json({ message });
       }
   
       return res.status(201).json(ticket);

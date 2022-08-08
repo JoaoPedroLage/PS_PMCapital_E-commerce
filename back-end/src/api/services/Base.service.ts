@@ -9,9 +9,9 @@ abstract class Service<T> {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   constructor(protected model: any) {}
 
-  public async create(obj: T): 
+  public async create(obj: T, authorization?: string): 
   Promise<T | ServiceError | any> {
-    return this.model.create(obj);
+    return this.model.create(obj, authorization);
   }
 
   public async findAll(): Promise<T[]> {

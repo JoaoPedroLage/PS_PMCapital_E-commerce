@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import jwt from 'jsonwebtoken';
 import { readFile } from 'fs/promises';
 import { User } from '../interfaces/User.interface';
@@ -19,8 +20,12 @@ class TokenGenerator {
     );
   }
 
-  async decodeToken(token: string) {
+  async verifyToken(token: string) {
     return this.jwt.verify(token, await readFile('jwt.evaluation.key', 'utf8'));
+  }
+
+  async decodeToken(token: string): Promise<any> {
+    return this.jwt.decode(token);
   }
 }
 

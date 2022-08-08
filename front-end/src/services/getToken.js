@@ -7,6 +7,7 @@ export default async function getToken(data) {
     headers: {
       'Content-type': 'application/json; charset=UTF-8',
     },
+    mode: 'no-cors',
   });
 
   const response = await request.json();
