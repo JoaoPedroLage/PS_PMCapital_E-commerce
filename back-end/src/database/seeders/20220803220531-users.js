@@ -20,7 +20,7 @@ module.exports = {
         id: 3,
         name: 'Cliente Zé Birita',
         email: 'zebirita@email.com',
-        password: '1c37466c159755ce1fa181bd247cb925', // senha: md5('zebirita@123')
+        password: '26b8c99c1facd222294b37427c7fd8fe', // senha: md5('zebirita@123')
         role: 'customer',
       },
     
