@@ -12,7 +12,7 @@ export default function EmailInput() {
           onChange={ ({ target }) => setEmail(target.value) }
           placeholder="Enter e-mail"
           type="email"
-          value={ email }
+          value={ console.log(email) }
           required
         />
       </label>
