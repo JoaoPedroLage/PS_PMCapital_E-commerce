@@ -115,6 +115,17 @@ O que foi realizado:
 ```http
   GET /tickets
 ```
+
+#### Return one item
+
+```http
+  GET /ticket/${id}
+```
+
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+| `id`      | `string` | **Mandatory**. ID item |
+
 #### Delete one item
 
 ```http
