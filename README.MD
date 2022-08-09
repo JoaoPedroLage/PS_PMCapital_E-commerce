@@ -63,7 +63,7 @@ O que foi realizado:
 - Testes para o back-end.
 - Melhorar a tipagem dos objetos que os métodos das classes recebem.
 - Implementar mais validações e mensagens de erro para as requisições do usuário.
-- Deixar a aplicação inteiramente on-line através dos servicos AWS.
+- Implentar uma interface funcional no front-end para ser amigável e interessante ao usuário/clientes.
 
 # :books: Stacks utilizadas
 
