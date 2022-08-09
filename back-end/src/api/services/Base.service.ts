@@ -26,7 +26,7 @@ abstract class Service<T> {
     return this.model.update(id, obj);
   }
 
-  public async destroy(id: string): Promise<T | null | ServiceError> {
+  public async destroy(id: string): Promise<T | any | ServiceError> {
     return this.model.destroy(id);
   }
 }

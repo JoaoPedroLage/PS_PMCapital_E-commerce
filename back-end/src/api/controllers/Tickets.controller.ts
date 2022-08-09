@@ -101,7 +101,7 @@ class TicketController extends Controller<Ticket> {
   
   destroy = async (
     req: Request<{ id: string }>,
-    res: Response<Ticket | ResponseError>,
+    res: Response<Ticket | ResponseError | any>,
   ): Promise<typeof res> => {
     const { id } = req.params;
   
@@ -109,7 +109,12 @@ class TicketController extends Controller<Ticket> {
   
     try {
       const ticket = await this.service.destroy(id);
-  
+      const { code, message } = ticket;
+
+      if (message) {
+        return res.status(code).json({ message });
+      }
+
       if (!ticket) {
         return res.status(404).json({ error: this.errors.notFound });
       }

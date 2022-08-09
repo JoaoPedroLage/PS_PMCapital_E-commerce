@@ -43,6 +43,17 @@ class TicketsService extends Service<Ticket> {
     };
   }
 
+  public async destroy(
+    id: string,
+  ): Promise<Ticket | ServiceError | any> {
+    await this.model.destroy({ where: { id } });
+
+    return {
+      code: 200,
+      message: `The ticket with id ${id} was been deleted successfully`,
+    };
+  }
+
   public async update(
     id: string,
     obj: Ticket,
@@ -53,7 +64,7 @@ class TicketsService extends Service<Ticket> {
       return { error: parsed.error };
     }
 
-    await this.model.update({ in_progress: false }, { where: { id } });
+    await this.model.update({ where: { id } });
 
     return this.model.findByPk(id);
   }
