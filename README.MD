@@ -83,7 +83,7 @@ O que foi realizado:
 - Garantir que todas as funções estão se comunicando com coerência e gerando os resultados esperados.
 - Aprender sobre AWS e o seu ecossistema.
 
-#  <img src="https://dqw5z6tkg7aeo.cloudfront.net/icon/d88319dfa5d204f019b4284149886c59-7d586ea82f792b61a8c87de60565133d.svg"/> &nbsp; Servidor AWS
+#  <img src="https://dqw5z6tkg7aeo.cloudfront.net/icon/d88319dfa5d204f019b4284149886c59-7d586ea82f792b61a8c87de60565133d.svg"/> &nbsp;Servidor AWS
 * A API foi colocada online através do serviço EC2 (Amazon Elastic Compute Cloud) da AWS que criou um servidor online que também possui um banco de dados para guardar as informações.
 * Teste uma requisição no seguinte endereço:
 http://18.228.192.201:3001/tickets
