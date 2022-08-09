@@ -83,6 +83,10 @@ O que foi realizado:
 - Garantir que todas as funções estão se comunicando com coerência e gerando os resultados esperados.
 - Aprender sobre AWS e o seu ecossistema.
 
+#  <img src="https://dqw5z6tkg7aeo.cloudfront.net/icon/d88319dfa5d204f019b4284149886c59-7d586ea82f792b61a8c87de60565133d.svg"/> &nbsp; Servidor AWS
+
+http://18.230.60.55:3001/tickets
+
 # 🛠️ Abrir e rodar o projeto
 
 1. Clone o repositório
