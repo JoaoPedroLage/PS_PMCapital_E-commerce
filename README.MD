@@ -15,9 +15,11 @@ por João Lage
 
 - [Stacks utilizadas](#books-stacks-utilizadas)
 
-- [Etapa mais desafiadora](#goberserk-etapa-mais-desafiadora)
+- [Etapa mais desafiadora](#%EF%B8%8F-etapa-mais-desafiadora)
 
 - [Abrir e rodar o projeto](#%EF%B8%8F-abrir-e-rodar-o-projeto)
+
+- [Servidor AWS](#%EF%B8%8F-servidor-aws)
 
 - [Feedback sobre o desafio](#recycle-feedback-sobre-o-desafio)
 
